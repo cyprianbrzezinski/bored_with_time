@@ -47,7 +47,7 @@ class _SnakeState extends State<Snake> {
   // start game easy
   void startGameEasy() {
     gameHasStarted = true;
-    newGame();
+    
     Timer.periodic(const Duration(milliseconds: 600), (timer) {
       setState(() {
         //snake is moving
@@ -107,7 +107,7 @@ class _SnakeState extends State<Snake> {
   // start game medium
   void startGameMedium() {
     gameHasStarted = true;
-    newGame();
+   
     Timer.periodic(const Duration(milliseconds: 400), (timer) {
       setState(() {
         //snake is moving
@@ -167,7 +167,7 @@ class _SnakeState extends State<Snake> {
   // start game Hard
   void startGameHard() {
     gameHasStarted = true;
-    newGame();
+    
     Timer.periodic(const Duration(milliseconds: 200), (timer) {
       setState(() {
         //snake is moving
@@ -227,7 +227,7 @@ class _SnakeState extends State<Snake> {
   // start game VeryHard
   void startGameVeryHard() {
     gameHasStarted = true;
-    newGame();
+    
     Timer.periodic(const Duration(milliseconds: 100), (timer) {
       setState(() {
         //snake is moving

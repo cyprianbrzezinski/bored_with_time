@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class BlankPixels extends StatelessWidget {
   const BlankPixels({
     super.key,
